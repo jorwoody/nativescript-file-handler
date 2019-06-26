@@ -12,7 +12,6 @@ letter.
 - emulator or device. What type of device?
 
 ### Please, provide the following version numbers that your issue occurs with:
-
 - CLI: (run `tns --version` to fetch it)
 - Cross-platform modules: (check the 'version' attribute in the
 `node_modules/tns-core-modules/package.json` file in your project)

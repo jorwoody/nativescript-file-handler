@@ -18,10 +18,14 @@
         "noImplicitAny": false,
         "noImplicitReturns": true,
         "noImplicitUseStrict": false,
-        "noFallthroughCasesInSwitch": true
+        "noFallthroughCasesInSwitch": true,
+        "baseUrl": ".",
+        "paths": {
+            "~/*": ["src/*"]
+        }
     },
     "exclude": [
         "node_modules"
     ],
-    "compileOnSave": false
+    "compileOnSave": true
 }
