@@ -7,7 +7,6 @@ export class Common extends Observable {
         super();
     }
 }
-
 export class Utils {
     public static SUCCESS_MSG(): string {
         let msg = `Your plugin is working on ${app.android ? 'Android' : 'iOS'}.`;
